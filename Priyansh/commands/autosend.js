@@ -50,7 +50,8 @@ const imgLinks = [
 "https://i.imgur.com/pxx2RzL.jpeg",
 "https://i.imgur.com/M7fFubs.jpeg",
 ];
-                              let lastSentHour = null;
+
+let lastSentHour = null;
 
 const sendHourlyMessages = async (api) => {
   try {
